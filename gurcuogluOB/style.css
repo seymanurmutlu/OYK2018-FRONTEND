@@ -1,0 +1,156 @@
+.clear {
+  clear: both;
+}
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: "Tahoma";
+  font-size: 16px;
+}
+
+.site {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.site .logo{
+  margin-top: 23px;
+  margin-left: 59px;
+  float: left;
+}
+
+.site .menu{
+  width: 750px;
+  float: right;
+  margin-left: 0px;;
+  margin-top: 80px;;
+}
+
+.site .menu ul li{
+  float: right;
+}
+.site .menu ul li a{
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 83px 10px 10px 10px;
+  margin-left: 20px;
+  color: black;
+}
+
+
+.site .menu ul li a:hover{
+  background-color: rgb(2, 145, 203);
+  color: white;
+}
+
+.site .banner{
+  width: 1000px;
+  height: 400px;
+  margin-top: 20px;;
+}
+
+.site .banner img{
+  width: 1000px;
+  height: 400px;
+}
+
+.site .orta .resimler{
+  background-color: rgb(243, 243, 243);
+  float: left;
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 326px;
+  height: 90px;
+  border: 1px solid lightgrey;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.site .orta .resimler img{
+  margin-top: 20px;
+}
+
+.site .orta .resimler:first-of-type{
+  margin-left: 0px;
+}
+
+.site .blog{
+  margin-top: 20px;;
+}
+
+.site .blog .haberler{
+  width: 326px;
+  float: left;
+}
+
+/* .site .blog .haberler h1{
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+} */
+
+.site .blog .baslik{
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+} 
+
+.site .blog .hakkimiz{
+  width: 664px;
+  float: right;
+}
+
+/* .site .blog .hakkimiz h1{
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+} */
+
+.site .blog .haberler .haber1{
+  margin-top: 20px;
+  width: 326px;
+}
+
+.site .blog .haberler .haber1 .resim{
+  border: 1px solid lightgrey;
+  float: left;
+  width: 96px;
+  height: 96px;;
+}
+.site .blog .haberler .haber1 .yazi{
+  width: 230px;
+  float: left;
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.site .blog .haberler .haber1 .yazi p{
+margin-bottom: 10px;
+}
+
+.site .blog .haberler .haber1 .yazi .tarih{
+  font-weight: bold;
+}
+
+.site .blog .hakkimiz p{
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.site .alt{
+  margin-top: 20px;
+  background-color: rgb(59, 59, 59);
+} 
+.site .alt p{ 
+  font-size: 12px;
+  padding: 20px;
+  color: lightgrey;
+}
